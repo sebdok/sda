@@ -1,7 +1,7 @@
 package pl.sdacademy.hr;
 
 class Employee {
-	private static String dateOfBirth ;
+	private final String dateOfBirth ;
 	private final String firstName;
 	private final String lastName;
 
@@ -26,5 +26,11 @@ class Employee {
 	@Override
 	public String toString() {
 		return firstName + " " + lastName + " " + dateOfBirth;
+	}
+
+	public boolean matches(String phrase) {
+		return firstName.contains(phrase)
+			|| lastName.contains(phrase)
+			|| dateOfBirth.contains(phrase);
 	}
 }
