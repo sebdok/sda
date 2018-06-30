@@ -1,3 +1,4 @@
+
 #Słowniczek pojęć
 
 Chwilowo w kolejności niealfabetycznej :)
