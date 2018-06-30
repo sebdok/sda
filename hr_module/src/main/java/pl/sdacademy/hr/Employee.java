@@ -11,7 +11,7 @@ class Employee implements Comparable <Employee> {
 		this.dateOfBirth = dateOfBirth;
 	}
 
-	public String getFirsName() {
+	public String getFirstName() {
 		return firstName;
 	}
 

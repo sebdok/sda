@@ -34,6 +34,7 @@
 		<module>26-tdd</module>
 		<module>hr_module</module>
 		<module>cwiczenia</module>
+		<module>printer</module>
 	</modules>
 	<packaging>pom</packaging>
 	<name>sdacademy-examples</name>
